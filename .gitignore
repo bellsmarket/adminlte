@@ -1,0 +1,171 @@
+# System / Log files
+*.DS_Store
+*.log
+
+# Archives
+*.zip
+
+# Sass Cache
+.sass-cache
+
+# Project files
+.idea
+nbproject
+nbproject/private
+.vscode/
+.vs/
+
+# Node / Bower
+node_modules/
+bower_components/
+
+# Plugins
+/plugins/**/*.html
+/plugins/**/*.less
+/plugins/**/*.md
+/plugins/**/*.scss
+/plugins/**/*.ts
+/plugins/**/bower.json
+/plugins/**/package.json
+/plugins/**/webpack.config.js
+/plugins/**/demo/
+/plugins/**/demos/
+/plugins/**/dev/
+/plugins/**/example/
+/plugins/**/examples/
+/plugins/**/less/
+/plugins/**/test/
+/plugins/**/tests/
+/plugins/daterangepicker/website/
+/plugins/daterangepicker/drp.png
+/plugins/daterangepicker/moment.min.js
+/plugins/daterangepicker/package.js
+/plugins/daterangepicker/website.css
+/plugins/daterangepicker/website.js
+/plugins/jquery-ui/AUTHORS.txt
+/plugins/jquery-ui/external/jquery/jquery.js
+/plugins/inputmask/bindings/
+/plugins/flot/plugins/jquery*.js
+!/plugins/flot/plugins/jquery.flot.*.js
+!/plugins/**/LICENSE.md
+!/plugins/**/LICENSE.txt
+!/plugins/**/license.md
+!/plugins/**/license.txt
+!/plugins/**/LICENSE
+!/plugins/**/license
+!/plugins/**/COPYING
+
+
+# Docs
+/docs/_site/
+/docs/vendor/
+/docs/.bundle/
+/docs_html/
+.jekyll-cache/
+.jekyll-metadata
+
+# ETC
+TODO
+test.html
+ad.js
+/.cache/
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### macOS Patch ###
+# iCloud generated files
+*.icloud
+
+
+### Images ###
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
+
+# JPEG 2000
+*.jp2
+*.j2k
+*.jpf
+*.jpx
+*.jpm
+*.mj2
+
+# JPEG XR
+*.jxr
+*.hdp
+*.wdp
+
+# Graphics Interchange Format
+*.gif
+
+# RAW
+*.raw
+
+# Web P
+*.webp
+
+# Portable Network Graphics
+*.png
+
+# Animated Portable Network Graphics
+*.apng
+
+# Multiple-image Network Graphics
+*.mng
+
+# Tagged Image File Format
+*.tiff
+*.tif
+
+# Scalable Vector Graphics
+*.svg
+*.svgz
+
+# Portable Document Format
+*.pdf
+
+# X BitMap
+*.xbm
+
+# BMP
+*.bmp
+*.dib
+
+# ICO
+*.ico
+
+# 3D Images
+*.3dm
+*.max
+
+
