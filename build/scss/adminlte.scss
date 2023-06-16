@@ -7,19 +7,21 @@
 
 // Bootstrap
 // ---------------------------------------------------
-// @import "~bootstrap/scss/functions";
-// @import "bootstrap-variables";
+@import "~bootstrap/scss/functions";
+@import "bootstrap-variables";
+
+// node_modules内のbootstrapディレクトリ内を読み込む
 // @import "~bootstrap/scss/bootstrap";
-//
-// Variables and Mixins
+@import "bootstrap";
+
 // ---------------------------------------------------
-// @import "variables";
-// @import "variables-alt";
-// @import "mixins";
-//
-// @import "parts/core";
-// @import "parts/components";
-// @import "parts/extra-components";
-// @import "parts/pages";
-// @import "parts/plugins";
-// @import "parts/miscellaneous";
+@import "variables";
+@import "variables-alt";
+@import "mixins";
+// //
+@import "parts/core";
+@import "parts/components";
+@import "parts/extra-components";
+@import "parts/pages";
+@import "parts/plugins";
+@import "parts/miscellaneous";
