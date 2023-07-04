@@ -50,9 +50,11 @@
     "watch":      "concurrently \"npm run watch-css\" \"npm run watch-js\"",
     "watch-css":  "nodemon --legacy-watch --watch build/scss -e scss -x \"npm-run-all css-lint css\"",
     "watch-js":   "nodemon --legacy-watch --watch build/js -e js -x \"npm-run-all js-lint js\"",
-    "remove-laravel-css": "rm -r ../../../public/vendor/adminlte/dist/css/*",
-    "copy-laravel-css": "cp -r ./dist/css/* ../../../public/vendor/adminlte/dist/css/",
-    "reinstall-laravel-css": "npm-run-all -s css remove-laravel-css copy-laravel-css"
+    "remove-laravel-css": "concurrently \"if [ -d ../../../public/vendor/adminlte ]; then rm -r ../../../public/vendor/adminlte; fi\"",
+    "mkdir-laravel-css": "mkdir -p ../../../public/vendor/adminlte/dist/css/",
+    "copy-laravel-css": "cp -r ./dist/ ../../../public/vendor/adminlte/dist",
+    "copy-laravel-logo": "cp -r docs/assets/img ../../../public/vendor/adminlte/dist",
+    "reinstall-laravel-css": "npm-run-all -s remove-laravel-css js css mkdir-laravel-css copy-laravel-logo copy-laravel-css"
   },
   "keywords": [
     "css",
