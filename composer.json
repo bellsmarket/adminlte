@@ -1,11 +1,4 @@
 {
-  "repositories": [
-      {
-          "name": "bellsmarket/adminlte",
-          "type": "vcs",
-          "url": "https://github.com/bellsmarket/adminlte.git"
-      }
-  ],
   "name": "bellsmarket/adminlte",
   "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 4",
   "homepage": "https://adminlte.io/",
